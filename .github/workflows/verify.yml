@@ -13,7 +13,10 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        browser: [firefox, chromium, webkit]
+        browser: [firefox, chrome]
+        include:
+          - os: windows-latest
+            browser: edge
     runs-on: ${{ matrix.os }}
     steps:
       - id: checkout
