@@ -1,11 +1,9 @@
 name: Verify
-
 on:
   schedule:
     - cron: "0 0 * * *"
   pull_request: {}
   push: {}
-
 jobs:
   tests:
     name: ${{ matrix.os }} (${{ matrix.browser }})
