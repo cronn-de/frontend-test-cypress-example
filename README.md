@@ -1,6 +1,6 @@
-# Cucumber with Playwright (JavaScript)
+# Cucumber with Cypress (JavaScript)
 
-This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [Playwright](https://playwright.dev/).
+This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [Cypress](https://cypress.io/).
 You need a recent [NodeJS](https://nodejs.org/) version.
 During installation, Playwright downloads browser binaries for Chromium, Firefox and WebKit.
 
