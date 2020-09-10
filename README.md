@@ -17,7 +17,7 @@ $ npm run test:chrome
 $ npm run test:firefox
 
 # run tests with Microsoft Edge
-$ npm run test:ege
+$ npm run test:edge
 ```
 
 [<img src="https://www.cronn.de/img/logo_name_rgb_1200x630.png" alt="cronn GmbH" width="200"/>](https://www.cronn.de/)
